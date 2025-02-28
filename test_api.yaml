@@ -1,0 +1,9 @@
+test_name: 访问项目首页
+steps:
+  - request:
+      method:get
+      url:https://www.bilibili.com/
+
+  - response:
+      status_code:200
+      text:'*bilibili*'
